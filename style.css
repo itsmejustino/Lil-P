@@ -3,7 +3,24 @@
     font-family:'Times New Roman', Times, serif
 }
 
+/* Nav list */
+li{
+    display: inline;
+    margin: 10px 10px;   
+    padding: 10px;
+    position: right;
+    float: right;
+}
+
 /* Nav bar */
 .nav{
 list-style-type: none;
+}
+
+/* New Website */
+.Title
+{
+display: block;
+position: relative;
+text-align: center;
 }
