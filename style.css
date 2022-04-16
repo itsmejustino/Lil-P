@@ -2,3 +2,8 @@
 *{
     font-family:'Times New Roman', Times, serif
 }
+
+/* Nav bar */
+.nav{
+list-style-type: none;
+}
