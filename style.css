@@ -1,9 +1,11 @@
-/* universal selector */
+
 *{
     font-family:'Times New Roman', Times, serif
 }
 
-/* Nav list */
+/* group selectors */
+
+/* nav list */
 li{
     display: inline;
     margin: 10px 10px;   
@@ -12,6 +14,7 @@ li{
     float: right;
 }
 
+/* class selectors */
 /* Nav bar */
 .nav{
 list-style-type: none;
