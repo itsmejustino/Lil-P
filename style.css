@@ -85,10 +85,9 @@ color:white;
 
 /* New Website */
 
-.products-container{
+.projects-container{
     display:flex;
     flex-direction: column;
-   justify-content: space-between;
 
 }
 
@@ -99,11 +98,17 @@ color:white;
 
 .projects-title{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.hero-image{
+display:flex;
+flex-wrap:wrap;
+flex-grow: 1;
 }
 .image-box{
     display:flex;
-    align-content: space-around;
+    align-content: space-between;
 
 }
 
