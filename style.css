@@ -3,8 +3,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family:'Times New Roman', Times, serif
-
+    font-family:'Times New Roman', Times, serif;
+    background-color: cadetblue;
 }
 
 /* group selectors */
@@ -36,10 +36,10 @@ align-content: space-around;
     justify-content: space-between;
 }
 .port {
-        color: orange;
+        color: rgb(158, 120, 50);
     }
 .fol{
-color:darkgreen;
+color:gainsboro;
 
 }
 
@@ -65,22 +65,20 @@ color:darkgreen;
     justify-content:space-around;
     margin-top: 0px;
     margin-right: 5px;
+    background-color: transparent;
 }
 .box1 , .box2 , .box3 {
+text-decoration: none;
+font-size: 1.2rem;
 text-align: center;
 transition-duration: 0.3s;
 
 }
 
-.box1 a, .box2 a, .box3 a {
-    font-size: 1.2rem;
-    text-decoration: none;
-}
-
 .box1:hover, .box2:hover, .box3:hover{
 
-background-color:olivedrab;
-box-shadow: 3px 2px grey;
+background-color:rgba(146, 207, 154, 0.842);
+box-shadow: 1px 1px 2px 0px rgba(211, 140, 205, 0.473);
 color:white;
 
 }
@@ -101,6 +99,7 @@ color:white;
 .projects-title-container{
     display:flex;
     justify-content: center;
+    margin-top: 200px;
 }
 
 .projects-title{
@@ -113,6 +112,12 @@ color:white;
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 50px;
+}
+.project-card1{
+display:flex;
+justify-content: space-around;
+
 }
 .project-card1, .project-card2, .project-card3{
     display:flex;
