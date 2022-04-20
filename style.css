@@ -30,10 +30,12 @@ align-content: space-around;
  }
 /* Nav bar */
 
-.mywebsite
+.mywebsite-container
 {
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 .port {
         color: rgb(158, 120, 50);
@@ -45,9 +47,7 @@ color:gainsboro;
 
 .nav-box{
     display:flex;
-    padding: .5em;
-    position: sticky;
-    
+    padding: .5em; 
 }
 
 
@@ -99,7 +99,7 @@ color:white;
 .projects-title-container{
     display:flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .projects-title{
@@ -107,6 +107,19 @@ color:white;
     justify-content: space-between;
 }
 
+.project-text-container1{
+display:flex;
+justify-content: space-around;
+margin: auto;
+
+}
+.card-container1{
+    display:flex;
+    flex-wrap-:wrap;
+    justify-content:space-around;
+
+    padding: 0;
+}
 
 .image-box{
     display:flex;
@@ -116,14 +129,22 @@ color:white;
 }
 .project-card1{
 display:flex;
-justify-content: space-around;
+align-content:center;
+justify-content: space-between;
+
 
 }
 .project-card1, .project-card2, .project-card3{
     display:flex;
-    flex-wrap:wrap;
-    flex-grow: 1;
+    margin:auto;
+    
     }
+.project-text{
+    display:flex;
+    justin-content: space-around;
+    flex-wrap: wrap;
+    padding-right: 0px;
+}
 
 .contactme {
     text-align:center;
@@ -133,6 +154,8 @@ justify-content: space-around;
 .copyright-container{ 
     position: fixed;
     bottom: 0;
+    margin: 0;
+    padding: 0;
     width:100%;
     display:block;
 
