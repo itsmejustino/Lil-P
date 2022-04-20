@@ -38,11 +38,20 @@ li{
 /* New Website */
 .mywebsite
 {
-    display: inline-block;
-    justify-content: left;
+    display: flex;
+    justify-content: space-between;
    
 }
 
+.projects-title-container{
+    display:flex;
+    justify-content: center;
+}
+
+.projects-title{
+display:flex;
+justify-content: center;
+}
 
 .contactme {
     text-align:center;
