@@ -19,8 +19,8 @@ li{
 
 /* Nav bar */
 .nav-box{
-  display: inline-flex;  
-  justify-items: flex-start;
+    display: inline-flex;  
+    justify-items: flex-start;
 }
 .nav{
     display: flex;
@@ -49,26 +49,49 @@ li{
 }
 
 .projects-title{
-display:flex;
-justify-content: center;
+    display:flex;
+    justify-content: center;
 }
 
 .contactme {
     text-align:center;
 
 }
+
+.copyright-container{ 
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    display:block;
+
+}
 .copyright{
     display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+
 }
 
 /* Media Queries */
 
 @media screen and (max-width: 250px){
-    .nav, .contactme, .nav li
+    .nav, .contactme, .nav li, .copyright
 {
 display:flex;
 width: 50%;
 flex-wrap:wrap;
+align-items:center;
+}
+
+.projects-title, img, .paragraph-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) 
 }
 
 }
+
+
+
