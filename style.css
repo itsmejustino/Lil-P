@@ -34,12 +34,19 @@ align-content: space-around;
 {
     display: flex;
     justify-content: space-between;
-   
 }
+.port {
+        color: orange;
+    }
+.fol{
+color:darkgreen;
+
+}
+
 .nav-box{
     display:flex;
     padding: .5em;
-    
+    position: sticky;
     
 }
 
@@ -101,16 +108,17 @@ color:white;
     justify-content: space-between;
 }
 
-.hero-image{
-display:flex;
-flex-wrap:wrap;
-flex-grow: 1;
-}
+
 .image-box{
     display:flex;
-    align-content: space-between;
-
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+.project-card1, .project-card2, .project-card3{
+    display:flex;
+    flex-wrap:wrap;
+    flex-grow: 1;
+    }
 
 .contactme {
     text-align:center;
