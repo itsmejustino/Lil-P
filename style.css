@@ -11,27 +11,70 @@
 
 li{
     display: inline-block; 
-    padding: 10px;
+    padding: .5em;
 }
  footer{
      align-items:center;
  }
 
+ img{
+
+display:flex;
+align-content: space-around;
+
+ }
+
+ p{
+     display: flex;
+     justify-content: space-between;
+ }
 /* Nav bar */
-.nav-box{
-    display: inline-flex;  
-    justify-items: flex-start;
-}
-.nav{
+
+.mywebsite
+{
     display: flex;
-    justify-content: right;
-    justify-items: right;
-    align-content:right;
-    list-style-type: none;
+    justify-content: space-between;
+   
+}
+.nav-box{
+    display:flex;
+    padding: .5em;
+    
+    
 }
 
-nav ul li a:hover{
 
+.nav{
+    
+    list-style-type: none;
+    display:flex;
+    flex-wrap: wrap;
+}
+.nav li{
+    
+    display:inline-flex;
+    flex: 1 1 25%;
+    border-radius: 10px;
+    justify-content:space-around;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+.box1 , .box2 , .box3 {
+text-align: center;
+transition-duration: 0.3s;
+
+}
+
+.box1 a, .box2 a, .box3 a {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.box1:hover, .box2:hover, .box3:hover{
+
+background-color:olivedrab;
+box-shadow: 3px 2px grey;
+color:white;
 
 }
 
@@ -41,11 +84,12 @@ nav ul li a:hover{
 
 
 /* New Website */
-.mywebsite
-{
-    display: flex;
-    justify-content: space-between;
-   
+
+.products-container{
+    display:flex;
+    flex-direction: column;
+   justify-content: space-between;
+
 }
 
 .projects-title-container{
@@ -56,6 +100,11 @@ nav ul li a:hover{
 .projects-title{
     display:flex;
     justify-content: center;
+}
+.image-box{
+    display:flex;
+    align-content: space-around;
+
 }
 
 .contactme {
@@ -75,26 +124,45 @@ nav ul li a:hover{
     flex-wrap: wrap;
     flex-direction:row;
     justify-content: center;
+    text-align:center;
 
 }
 
-/* Media Queries */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
-@media screen and (min-width: 300px){
-    .nav, .contactme, .nav li, .copyright
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
+/*
+@media screen and (max-width: 400px){
+    .nav, , .contactme, .nav, .copyright
 {
 display:flex;
-width: 50%;
+flex-wrap:wrap;
+width: 100%;
 flex-wrap:wrap;
 align-items:center;
 }
-
-
-    
+ 
 }
 
-
-
+*/
 
 
 
