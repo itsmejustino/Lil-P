@@ -30,6 +30,11 @@ li{
     list-style-type: none;
 }
 
+nav ul li a:hover{
+
+
+}
+
 
 /* class selectors */
 
@@ -75,7 +80,7 @@ li{
 
 /* Media Queries */
 
-@media screen and (max-width: 250px){
+@media screen and (min-width: 300px){
     .nav, .contactme, .nav li, .copyright
 {
 display:flex;
@@ -84,14 +89,12 @@ flex-wrap:wrap;
 align-items:center;
 }
 
-.projects-title, img, .paragraph-text {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) 
+
+    
 }
 
-}
+
+
 
 
 
