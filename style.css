@@ -24,10 +24,6 @@ align-content: space-around;
 
  }
 
- p{
-     display: flex;
-     justify-content: space-between;
- }
 /* Nav bar */
 
 .mywebsite-container
@@ -113,6 +109,12 @@ justify-content: space-around;
 margin: auto;
 
 }
+.project-text{
+    display:flex;
+    justin-content: space-around;
+    flex-wrap: wrap;
+    padding-right: 0px;
+}
 .card-container1{
     display:flex;
     flex-wrap-:wrap;
@@ -139,12 +141,7 @@ justify-content: space-between;
     margin:auto;
     
     }
-.project-text{
-    display:flex;
-    justin-content: space-around;
-    flex-wrap: wrap;
-    padding-right: 0px;
-}
+
 
 .contactme {
     text-align:center;
@@ -154,19 +151,18 @@ justify-content: space-between;
 .copyright-container{ 
     position: fixed;
     bottom: 0;
-    margin: 0;
+    margin: auto;
     padding: 0;
-    width:100%;
-    display:block;
+    background-color: none;
 
 }
-.copyright{
+#copyright{
     display:flex;
     flex-wrap: wrap;
-    flex-direction:row;
-    justify-content: center;
     text-align:center;
-
+    margin: auto;
+    bottom: 0;
+  background-color: none;
 }
 
 .col-1 {width: 8.33%;}
