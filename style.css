@@ -7,8 +7,15 @@
     background-color: cadetblue;
 }
 
+
+
 /* group selectors */
 
+body{
+height: 100%;
+position:relative;
+
+}
 li{
     display: inline-block; 
     padding: .5em;
@@ -80,7 +87,7 @@ color:white;
 }
 
 
-/* class selectors */
+
 
 
 
@@ -149,7 +156,7 @@ justify-content: space-between;
 }
 
 .copyright-container{ 
-    position: fixed;
+    position: absolute;
     bottom: 0;
     margin: auto;
     padding: 0;
@@ -162,7 +169,7 @@ justify-content: space-between;
     text-align:center;
     margin: auto;
     bottom: 0;
-  background-color: none;
+    background-color: none;
 }
 
 .col-1 {width: 8.33%;}
