@@ -12,24 +12,28 @@
 /* group selectors */
 
 body{
-height: 100%;
-position:relative;
+    height: 100%;
+    position:relative;
 
 }
+
+img{
+
+    display:flex;
+    align-content: space-around;
+    
+     }
+
 li{
     display: inline-block; 
     padding: .5em;
 }
+
  footer{
      align-items:center;
  }
 
- img{
 
-display:flex;
-align-content: space-around;
-
- }
 
 /* Nav bar */
 
@@ -74,17 +78,20 @@ color:gainsboro;
 text-decoration: none;
 font-size: 1.2rem;
 text-align: center;
-transition-duration: 0.3s;
+transition-duration: 0.35s;
+
 
 }
 
 .box1:hover, .box2:hover, .box3:hover{
 
-background-color:rgba(146, 207, 154, 0.842);
-box-shadow: 1px 1px 2px 0px rgba(211, 140, 205, 0.473);
+background-color:rgba(146, 207, 154, 0.532);
+box-shadow: 2px 3px 20px rgba(165, 165, 165, 0.349);
 color:white;
-
 }
+
+
+
 
 /* New Website */
 
@@ -136,8 +143,18 @@ display:flex;
 align-content:center;
 justify-content: space-between;
 
+}
+
+.project-card3
+{
+display:flex;
+
 
 }
+
+
+
+
 .project-card1, .project-card2, .project-card3{
     display:flex;
     margin:auto;
