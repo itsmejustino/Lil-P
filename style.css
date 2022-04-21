@@ -46,6 +46,7 @@ li{
 }
 .port {
         color: rgb(158, 120, 50);
+
     }
 .fol{
 color:gainsboro;
@@ -98,7 +99,6 @@ color:white;
 .projects-container{
     display:flex;
     flex-direction: column;
-
 }
 
 .projects-title-container{
@@ -124,11 +124,11 @@ margin: auto;
     flex-wrap: wrap;
     padding-right: 0px;
 }
-.card-container1{
+.card-container1 .project-container2 .project-container3{
     display:flex;
     flex-wrap-:wrap;
     justify-content:space-around;
-
+    background-color: aliceblue;
     padding: 0;
 }
 
@@ -137,6 +137,7 @@ margin: auto;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 50px;
+    gap: 1em;
 }
 .project-card1{
 display:flex;
@@ -158,6 +159,7 @@ display:flex;
 .project-card1, .project-card2, .project-card3{
     display:flex;
     margin:auto;
+    background-color:white:
     
     }
 
