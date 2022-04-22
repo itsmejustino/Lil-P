@@ -128,12 +128,12 @@ margin: auto;
 
 
 
-.card-container1 .card-container2 .card-container3{
+.card-container1{
     display:flex;
-    flex-wrap-: wrap;
+    flex-wrap: wrap;
     justify-content:space-around;
-    background-color: aliceblue;
-    padding: 0;
+    padding: 15px;
+    background-color: salmon;
 }
 
 .image-box{
@@ -147,24 +147,24 @@ margin: auto;
 display:flex;
 align-content:center;
 justify-content: space-between;
-
 }
 
 .project-card3
 {
 display:flex;
-
-
 }
 
 
 
 
 .project-card1, .project-card2, .project-card3{
-    display:flex;
-    margin:auto;
-    background-color:white;
-    
+    display: flex;
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 3px 1px 15px 9px grey;
+    border-radius: 15px;
+    margin-bottom: 15px;
     }
 
 
