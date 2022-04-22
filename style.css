@@ -42,6 +42,7 @@ li{
     display: flex;
     justify-content: space-between;
     position: sticky;
+    box-shadow: 0px 0.1px 6px whitesmoke;
     top: 0;
 }
 .port {
@@ -104,7 +105,7 @@ color:white;
 .projects-title-container{
     display:flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 .projects-title{
@@ -124,7 +125,10 @@ margin: auto;
     flex-wrap: wrap;
     padding-right: 0px;
 }
-.card-container1 .project-container2 .project-container3{
+
+
+
+.card-container1 ..card-container2 .card-container3{
     display:flex;
     flex-wrap-: wrap;
     justify-content:space-around;
