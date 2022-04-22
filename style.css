@@ -120,13 +120,13 @@ margin: auto;
 }
 .project-text{
     display:flex;
-    justin-content: space-around;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-right: 0px;
 }
 .card-container1 .project-container2 .project-container3{
     display:flex;
-    flex-wrap-:wrap;
+    flex-wrap-: wrap;
     justify-content:space-around;
     background-color: aliceblue;
     padding: 0;
@@ -159,7 +159,7 @@ display:flex;
 .project-card1, .project-card2, .project-card3{
     display:flex;
     margin:auto;
-    background-color:white:
+    background-color:white;
     
     }
 
