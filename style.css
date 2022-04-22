@@ -140,7 +140,7 @@ margin: auto;
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 15px;
     gap: 1em;
 }
 .project-card1{
