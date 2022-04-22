@@ -128,7 +128,7 @@ margin: auto;
 
 
 
-.card-container1 ..card-container2 .card-container3{
+.card-container1 .card-container2 .card-container3{
     display:flex;
     flex-wrap-: wrap;
     justify-content:space-around;
