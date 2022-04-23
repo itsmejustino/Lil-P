@@ -10,7 +10,15 @@
 
 
 /* group selectors */
+a{
+text-decoration:none;
+background-color: transparent;
+}
+h2{
+margin-top: 20px;
+margin-bottom: 10px;
 
+}
 body{
     height: 100%;
     position:relative;
