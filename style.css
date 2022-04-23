@@ -17,6 +17,7 @@ background-color: transparent;
 h2{
 margin-top: 20px;
 margin-bottom: 10px;
+margin-left: 20px;
 
 }
 body{
@@ -104,6 +105,11 @@ color:white;
 
 
 /* New Website */
+
+.about-me-text{
+padding: 20px;
+
+}
 
 .projects-container{
     display:flex;
