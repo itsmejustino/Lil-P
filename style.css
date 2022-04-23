@@ -7,6 +7,7 @@
     background-color: cadetblue;
 }
 
+/* color variables */
 
 
 /* group selectors */
@@ -53,6 +54,11 @@ li{
     position: sticky;
     box-shadow: 0px 0.1px 6px whitesmoke;
     top: 0;
+}
+.mywebsite{
+display:flex;
+justify-content: center;
+align-items: center;
 }
 .port {
         color: rgb(158, 120, 50);
@@ -188,7 +194,7 @@ display:flex;
 }
 
 .copyright-container{ 
-    display:flex
+    display:flex;
     justify-content: center;
     position: static;
     bottom: 0;
