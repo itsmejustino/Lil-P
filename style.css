@@ -40,7 +40,11 @@ li{
      align-items:center;
  }
 
+.contact-container svg{
+display:inline;
+position:block;
 
+}
 
 /* Nav bar */
 
@@ -191,11 +195,14 @@ box-shadow: 1px 0px 15px 9px whitesmoke;
     }
 
     /* Contact me Section */
-.contactme {
+.contact-container {
+    margin-top: 20px;
     text-align:center;
 }
 
-
+.contact-container p{
+margin-top: 10px;
+}
 /* copyright/footer */
 .copyright-container{ 
     display:flex;
