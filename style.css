@@ -92,7 +92,7 @@ color:gainsboro;
     margin-right: 5px;
     background-color: transparent;
 }
-.box1 , .box2 , .box3 {
+.box1 , .box2 , .box3 , .box4 {
 text-decoration: none;
 font-size: 1.2rem;
 text-align: center;
@@ -101,7 +101,7 @@ transition-duration: 0.35s;
 
 }
 
-.box1:hover, .box2:hover, .box3:hover{
+.box1:hover, .box2:hover, .box3:hover , .box4:hover{
 
 background-color:rgba(146, 207, 154, 0.532);
 color:rgb(175, 175, 175);
