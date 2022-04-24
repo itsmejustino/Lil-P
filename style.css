@@ -12,9 +12,9 @@
 
 /* group selectors */
 
-a:visited, a:visited{
+a:visited, a:active{
     text-decoration: none;
-    color: white;
+    color: rgb(223, 223, 223);
 }
 
 a{
@@ -59,7 +59,7 @@ li{
     display: flex;
     justify-content: space-between;
     position: sticky;
-    box-shadow: 0px 0.1px 6px whitesmoke;
+    box-shadow: 0px 0.1px 6px rgba(245, 245, 245, 0.69);
     top: 0;
 }
 .mywebsite{
@@ -111,7 +111,7 @@ transition-duration: 0.35s;
 
 background-color:rgba(146, 207, 154, 0.532);
 box-shadow: 1px 1px 10px rgba(165, 165, 165, 0.568);
-color:white;
+color:rgb(175, 175, 175);
 }
 
 
