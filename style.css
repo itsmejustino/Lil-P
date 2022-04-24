@@ -133,51 +133,16 @@ padding: 20px;
     justify-content: space-between;
 }
 
-.project-text-container1{
-display:flex;
-justify-content: space-around;
-margin: auto;
-
-}
-.project-text{
-    display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-right: 0px;
-}
-
-
-
-.card-container1{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    padding: 15px;
-    background-color: salmon;
-}
-
 .image-box{
     display:flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 15px;
-    gap: 1em;
-}
-.project-card1{
-display:flex;
-align-content:center;
-justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 3em;
 }
 
-.project-card3
-{
-display:flex;
-}
-
-
-
-
-.project-card1, .project-card2, .project-card3{
+.project-card {
     display: flex;
     margin: auto;
     background-color: white;
@@ -185,8 +150,20 @@ display:flex;
     box-shadow: 3px 1px 15px 9px grey;
     border-radius: 15px;
     margin-bottom: 15px;
+    transition: 0.4s;
     }
 
+.project-card:hover{
+box-shadow: 3px 3px 10px whitesmoke;
+}
+
+.project-text{
+        display:flex;
+        flex-wrap:wrap;
+        align-content:center;
+        justify-content: center;
+        max-width: 100%;
+    }
 
 .contactme {
     text-align:center;
