@@ -154,7 +154,7 @@ padding: 20px;
     }
 
 .project-card:hover{
-box-shadow: 3px 3px 10px whitesmoke;
+box-shadow: 3px 1px 15px 9px whitesmoke;
 }
 
 .project-text{
