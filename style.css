@@ -7,11 +7,7 @@
     background-color: cadetblue;
 }
 
-/* color variables */
-
-
-/* group selectors */
-
+/* grouped styling */
 a:visited, a:active{
     text-decoration: none;
     color: rgb(223, 223, 223);
@@ -115,17 +111,12 @@ color:rgb(175, 175, 175);
 }
 
 
-
-
-
-
-/* New Website */
-
 .about-me-text{
 padding: 20px;
 
 }
 
+/* Projects section */
 .projects-container{
     display:flex;
     flex-direction: column;
@@ -175,11 +166,13 @@ box-shadow: 1px 0px 15px 9px whitesmoke;
         margin-top: 20px;
     }
 
+    /* Contact me Section */
 .contactme {
     text-align:center;
-
 }
 
+
+/* copyright/footer */
 .copyright-container{ 
     display:flex;
     justify-content: center;
@@ -199,6 +192,9 @@ box-shadow: 1px 0px 15px 9px whitesmoke;
     bottom: 0;
     background-color: none;
 }
+
+
+/* media queries */
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
