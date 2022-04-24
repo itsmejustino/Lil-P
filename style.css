@@ -146,15 +146,15 @@ padding: 20px;
     display: flex;
     margin: auto;
     background-color: white;
-    padding: 5px;
-    box-shadow: 3px 1px 15px 9px grey;
+    padding: 3px;
+    box-shadow: 1px 0px 15px 9px grey;
     border-radius: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     transition: 0.4s;
     }
 
 .project-card:hover{
-box-shadow: 3px 1px 15px 9px whitesmoke;
+box-shadow: 1px 0px 15px 9px whitesmoke;
 }
 
 .project-text{
