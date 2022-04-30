@@ -172,7 +172,7 @@ padding: 20px;
 .project-card {
     display: flex;
     margin: auto;
-    max-width:100%;
+    max-width:65%;
     max-height: 100%;
     background-color: white;
     padding: 3px;
