@@ -5,3 +5,6 @@ This page will serve as my portfolio page to easily reference my current project
 # Made With
 I have created my portfolio page with HTML and CSS.
 
+# Current Personal Projects 
+-Password Generator
+-more to come!
