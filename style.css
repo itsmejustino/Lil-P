@@ -16,6 +16,7 @@ a:visited, a:active, a:link{
 a{
 text-decoration:none;
 background-color: transparent;
+overflow: hidden;
 }
 
 h2{
