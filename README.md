@@ -12,4 +12,4 @@ I have created my portfolio page with HTML and CSS.
 
 # Link to Deployed Site
 
-![alt text]("https://itsmejustino.github.io/myPortfolio/")
+https://itsmejustino.github.io/myPortfolio/
