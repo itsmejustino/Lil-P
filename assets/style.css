@@ -149,7 +149,9 @@ footer {
 .projects-container2 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap:6em;
 }
 
 .projects-title-container {
@@ -160,7 +162,7 @@ footer {
 
 .projects-title {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .image-box {
@@ -199,7 +201,7 @@ footer {
 }
 .card-container2{
   width:400px;
-  
+  margin-top: 5%
   }
 .project-card3 {
   display: flex;
@@ -217,7 +219,7 @@ footer {
 }
 .card-container3{
 width:400px;
-
+margin-top: 5%
 }
 .project-card4 {
   display: flex;
@@ -235,15 +237,12 @@ width:400px;
 }
 .card-container4{
   width:400px;
-  
+  margin-top: 5%
   }
   .project-card:hover, .project-card2:hover, .project-card3:hover, .project-card4:hover {
   box-shadow: 1px 0px 15px 9px whitesmoke;
 }
 
- {
-  box-shadow: 1px 0px 15px 9px whitesmoke;
-}
 
 .project-text {
   display: flex;
