@@ -6,7 +6,9 @@ This page will serve as my portfolio page to easily reference my current project
 I have created my portfolio page with HTML and CSS. 
 
 # Current Personal Projects 
--Password Generator  <br> -Daily Planner 
+-Running Route Generator  
+<br> -Daily Planner 
+<br> -Weather App
 -more to come!
 
 # Link to Deployed Site
