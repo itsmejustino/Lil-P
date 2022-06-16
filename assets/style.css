@@ -3,15 +3,17 @@
   padding: 0;
   margin: 0;
   font-family: "Courier New", Courier, monospace;
+  /* background-color: cadetblue; */
+}
+header {
   background-color: cadetblue;
 }
-
 /* grouped styling */
 a:visited,
 a:active,
 a:link {
   text-decoration: none;
-  color: rgb(223, 223, 223);
+  color: black;
 }
 
 a {
@@ -29,6 +31,7 @@ h2 {
 body {
   height: 100%;
   position: relative;
+  background-color: cadetblue;
 }
 
 li {
@@ -104,7 +107,7 @@ footer {
 .box3:hover,
 .box4:hover {
   background-color: rgba(146, 207, 154, 0.532);
-  color: rgb(175, 175, 175);
+  color: black;
 }
 
 .photo-of-me {
@@ -129,35 +132,68 @@ footer {
 }
 
 .linkedin svg:hover {
-  fill:rgba(0, 0, 0, 0.904);
+  fill: rgb(223, 223, 223);
 }
 
 .github svg:hover {
-  fill:rgba(0, 0, 0, 0.904);
+  fill: rgb(223, 223, 223);
   text-decoration: none;
+}
+.about-me-container {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  background-image: url(https://github.com/itsmejustino/Lil-P/blob/main/assets/IMG_2202.jpeg);
+  width: 100%;
+  height: 100%;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
 }
 
 .about-me-text {
   padding: 20px;
 }
-.about-me-secondary-container{
-display:flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+.about-me-secondary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skills-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+.skills-section {
+  display: flex;
+  justify-content: center;
+}
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
 }
 
+.bulma-img-container {
+  display: block;
+  margin: auto;
+}
 /* Projects section */
 .projects-container {
+  background-color: cadetblue;
   display: flex;
   flex-direction: column;
+  margin-top: 20%;
 }
 .projects-container2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap:6em;
+  gap: 6em;
+  background-color: cadetblue;
 }
 
 .projects-title-container {
@@ -197,7 +233,7 @@ flex-direction: column;
   margin: auto;
   max-width: 250px;
   max-height: 400px;
- height:100%;
+  height: 100%;
   background-color: white;
   padding: 3px;
   box-shadow: 1px 0px 15px 9px grey;
@@ -205,50 +241,50 @@ flex-direction: column;
   margin-bottom: 10px;
   transition: 0.4s;
 }
-.card-container2{
-  width:400px;
-  margin-top: 5%
-  }
+.card-container2 {
+  width: 400px;
+  margin-top: 5%;
+}
 .project-card3 {
   display: flex;
   margin: auto;
   max-width: 250px;
   max-height: 400px;
- height:100%;
+  height: 100%;
   background-color: white;
   padding: 3px;
   box-shadow: 1px 0px 15px 9px grey;
   border-radius: 15px;
   margin-bottom: 10px;
   transition: 0.4s;
-
 }
-.card-container3{
-width:400px;
-margin-top: 5%
+.card-container3 {
+  width: 400px;
+  margin-top: 5%;
 }
 .project-card4 {
   display: flex;
   margin: auto;
   max-width: 250px;
   max-height: 400px;
- height:100%;
+  height: 100%;
   background-color: white;
   padding: 3px;
   box-shadow: 1px 0px 15px 9px grey;
   border-radius: 15px;
   margin-bottom: 10px;
   transition: 0.4s;
-
 }
-.card-container4{
-  width:400px;
-  margin-top: 5%
-  }
-  .project-card:hover, .project-card2:hover, .project-card3:hover, .project-card4:hover {
+.card-container4 {
+  width: 400px;
+  margin-top: 5%;
+}
+.project-card:hover,
+.project-card2:hover,
+.project-card3:hover,
+.project-card4:hover {
   box-shadow: 1px 0px 15px 9px whitesmoke;
 }
-
 
 .project-text {
   display: flex;
@@ -262,16 +298,19 @@ margin-top: 5%
 
 /* Contact me Section */
 .contact-container {
+  background-color: cadetblue;
   margin-top: 5%;
   text-align: center;
 }
 
 .contact-container p {
+  background-color: cadetblue;
   margin-top: 10px;
 }
 
 /* copyright/footer */
 .copyright-container {
+  background-color: cadetblue;
   display: flex;
   justify-content: center;
   position: static;
@@ -282,6 +321,7 @@ margin-top: 5%
 }
 
 #copyright {
+  background-color: cadetblue;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -292,27 +332,28 @@ margin-top: 5%
 }
 /* Modal */
 .modal {
-  display: none; 
-  position: fixed; 
-  z-index: 1; 
+  display: none;
+  position: fixed;
+  z-index: 1;
   left: 0;
   top: 0;
-  width: 100%; 
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0,0.4); 
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto; 
+  margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; 
+  width: 80%;
+  border-radius: 5px;
 }
-#modal-text{
+#modal-text {
   background-color: #fefefe;
 }
 
@@ -332,20 +373,24 @@ margin-top: 5%
   cursor: pointer;
 }
 
-.aboutme-modal{
+.aboutme-modal {
   display: flex;
   text-decoration: none;
   border-radius: 5px;
   font-size: 1.2rem;
   text-align: center;
   transition-duration: 0.35s;
-  padding: .5%;
+  padding: 0.5%;
+  border: none;
+  background-color: rgba(146, 207, 154, 0.342);
+  margin-bottom: 5%;
 }
 
 .aboutme-modal:hover {
   background-color: rgba(146, 207, 154, 0.532);
+  cursor: pointer;
 }
-.modal-btn-container{
-display:flex;
-justify-content: center;
+.modal-btn-container {
+  display: flex;
+  justify-content: center;
 }
