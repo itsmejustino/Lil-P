@@ -185,7 +185,11 @@ footer {
 }
 
 .bulma-img-container {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  gap: 2em;
   margin: auto;
 }
 /* Projects section */
