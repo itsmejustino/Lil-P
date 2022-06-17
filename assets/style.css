@@ -140,21 +140,22 @@ footer {
   text-decoration: none;
 }
 .about-me-container {
-  background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
-  background-position: top;
+  background-repeat: no-repeat;
   background-image: url(https://github.com/itsmejustino/myPortfolio/blob/main/assets/IMG_2202.jpeg?raw=true);
-  width: 100%;
+  max-width:100%;
   height: auto;
   letter-spacing: 0.02em;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  box-shadow: 0px 0.1px 6px rgba(245, 245, 245, 0.69);
+  box-shadow: 2px 0.5px 6px rgb(199, 199, 199);
 }
 
 .about-me-text {
+  margin-top: 1%;
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.419);
+  background-color: rgba(117, 117, 117, 0.801);
   box-shadow: 2px rgba(255, 255, 255, 0.4);
   border-radius: 5px;
   font-weight: 900;
@@ -388,14 +389,14 @@ footer {
   transition-duration: 0.35s;
   padding: 0.5%;
   border: none;
-  background-color: rgba(146, 207, 154, 0.342);
+  background-color: rgba(146, 207, 154, 0.541);
   margin-bottom: 5%;
- margin-top: 5%;
+  margin-top: 1%;
  font-weight: bolder;
 }
 
 .aboutme-modal:hover {
-  background-color: rgba(146, 207, 154, 0.532);
+  background-color: rgb(146, 207, 154);
   cursor: pointer;
 }
 .modal-btn-container {
