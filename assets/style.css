@@ -154,7 +154,7 @@ footer {
 }
 
 .about-me-text {
-  margin-top: 1%;
+  margin-top: 3%;
   padding: 20px;
   background-color: rgba(146, 207, 154, 0.38);
   box-shadow: 2px rgba(255, 255, 255, 0.4);
@@ -165,6 +165,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
 }
 .skills-header {
