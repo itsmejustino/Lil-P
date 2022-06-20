@@ -9,7 +9,8 @@ I have created my portfolio page with HTML and CSS.
 -Running Route Generator  
 <br> -Daily Planner 
 <br> -Weather App
-<br>-more to come!
+<br> -README Generator
+<br> -More to come!
 
 # Link to Deployed Site
 
