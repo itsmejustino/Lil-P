@@ -14,3 +14,5 @@ I have created my portfolio page with HTML and CSS.
 # Link to Deployed Site
 
 https://itsmejustino.github.io/myPortfolio/
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
