@@ -292,10 +292,28 @@ footer {
   width: 400px;
   margin-top: 5%;
 }
+.project-card5 {
+  display: flex;
+  margin: auto;
+  max-width: 250px;
+  max-height: 400px;
+  height: 100%;
+  background-color: white;
+  padding: 3px;
+  box-shadow: 1px 0px 15px 9px grey;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  transition: 0.4s;
+}
+.card-container5 {
+  width: 400px;
+  margin-top: 5%;
+}
 .project-card:hover,
 .project-card2:hover,
 .project-card3:hover,
-.project-card4:hover {
+.project-card4:hover,
+.project-card5:hover{
   box-shadow: 1px 0px 15px 9px whitesmoke;
 }
 
