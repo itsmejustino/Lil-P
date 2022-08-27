@@ -183,6 +183,10 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 2%;
+  background: rgb(225, 222, 222);
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 10px;
 }
 
 .bulma-img-container {
