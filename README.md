@@ -18,7 +18,8 @@
   To use this web page visit the url or fork the repo and open the index.html file within your browser using the IDE of your choice.
 ## Contribute
   If you would like to contribute to the project please send me an email and make a pull request for the feature you would like to edit or add.
-
+## Demo
+![demopic](https://github.com/itsmejustino/myPortfolio/blob/main/assets/portfolio-demo.png?raw=true)
 ## Questions 
 If you are interested in contacting me or contributing to this project, please contact me via email. Please include your Github profile name and the name of this repo in the subject of your email.
 ### Github Username: 
